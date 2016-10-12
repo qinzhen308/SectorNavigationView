@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="NavigationBar">
+        <!--整个区域半径，因为整体是扇形，所以控件必须是正方形-->
+        <attr name="radiusn" format="dimension"/>
+        <!--内部各个子区域之间的间隙-->
+        <attr name="gap" format="dimension"/>
+        <!--起始角度，以三角函数的角度为准-->
+        <attr name="startAngle" format="integer"/>
+        <!--结束角度，以三角函数的角度为准-->
+        <attr name="endAngle" format="integer"/>
+        <!--子区域个数-->
+        <attr name="count" format="integer"/>
+    </declare-styleable>
+</resources>
